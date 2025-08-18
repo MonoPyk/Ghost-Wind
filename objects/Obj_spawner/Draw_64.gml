@@ -1,0 +1,1 @@
+draw_text(20, 60, "Spawn rate: " + string(spawn_interval));
