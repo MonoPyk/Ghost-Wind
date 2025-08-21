@@ -14,7 +14,7 @@ if image_alpha == 1{
 
 	//Reseta o jogo caso apertar qualquer botão
 	if keyboard_check_pressed(vk_anykey){
-		game_restart();
+		room_goto(rm_menu);
 	}
 
 }
