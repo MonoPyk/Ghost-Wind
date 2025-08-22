@@ -1,3 +1,5 @@
+if (global.soul_stop) exit;
+
 if (instance_exists(target)) {
        // Direção para o player
     var dir = point_direction(x, y, target.x, target.y);

@@ -1,3 +1,5 @@
+if (global.soul_stop) exit;
+
 // Se o boss não spawnou, spawn normal acontece
 if (!boss_spawned) {
 

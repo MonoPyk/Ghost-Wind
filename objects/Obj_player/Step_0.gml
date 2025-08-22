@@ -86,6 +86,30 @@ else {
     }
 }
 
+if soul_bar >= 50{
+	image_blend = c_yellow;
+	
+	// Ativar Time Stop (por exemplo, tecla T)
+	if (keyboard_check_pressed(ord("T"))) {
+		if (!global.soul_stop && soul_bar >= 50) {
+			global.soul_stop = true;
+			global.soul_stop_until = current_time + 10000; // 10 segundos
+			
+			soul_bar -= 50;
+			soul_stops_usados += 1
+		}
+	}
+
+	// Desliga o efeito após 10 segundos
+	if (global.soul_stop && current_time >= global.soul_stop_until) {
+	    global.soul_stop = false;
+		shader_reset();
+	}
+}
+else{
+	image_blend = -1;
+}
+
 // Contador de cooldown
 if (dash_cooldown_timer > 0) {
     dash_cooldown_timer -= 1;

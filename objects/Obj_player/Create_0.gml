@@ -5,12 +5,18 @@ player_speed = 6;
 player_hp = 100;
 player_maxhp = 100;
 
+//Dimensões da barra de hp do player
+
 healthbar_width = 50;
 healthbar_height = 7;
 
 healthbar_x = 20;
 heatlhbar_y = 700;
 
+//barra de almas
+
+soul_bar = 50;
+soul_stops_usados = 0;
 
 invencivel = false;
 invencivel_timer = 0;      // Timer de invencibilidade

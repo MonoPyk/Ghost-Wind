@@ -1,3 +1,6 @@
+global.soul_stop = false;
+global.soul_stop_until = 0;
+
 shake_time = 0;
 shake_strength = 0;
 view_original_x = 0;

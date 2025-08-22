@@ -1,3 +1,7 @@
+if (global.soul_stop && current_time >= global.soul_stop_until) {
+    global.soul_stop = false;
+}
+
 if (shake_time > 0) {
     shake_time -= 1;
 

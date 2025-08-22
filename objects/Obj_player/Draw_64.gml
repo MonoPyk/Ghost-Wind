@@ -11,3 +11,9 @@ draw_sprite_stretched(Hp_bar,0,healthbar_x,heatlhbar_y, (player_hp/player_maxhp)
 draw_set_color(c_black);
 draw_text(20, 700, "HP: " + string(player_hp));
 
+draw_set_color(c_white);
+draw_text(20, 500, "Almas: " + string(soul_bar));
+
+draw_set_color(c_white);
+draw_text(20, 400, "Soul Stops: " + string(soul_stops_usados));
+

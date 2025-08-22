@@ -6,6 +6,7 @@ if (other.is_dashing) {
 	alma.target = instance_find(Obj_player, 0); // define o alvo da alma
 
 	// Destroi o inimigo
+	audio_play_sound(snd_explosao, 0, false);
 	instance_destroy();
 
 

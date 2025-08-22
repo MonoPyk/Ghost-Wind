@@ -1,3 +1,5 @@
+if (global.soul_stop) exit;
+
 if (instance_exists(player_obj)) {
     // Distância desejada para parar
     var distancia_minima = 150;

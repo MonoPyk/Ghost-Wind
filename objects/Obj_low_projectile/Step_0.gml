@@ -1,0 +1,1 @@
+if (global.soul_stop) exit;
