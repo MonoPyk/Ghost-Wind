@@ -1,4 +1,4 @@
-boss_hp -= 1;
+boss_hp -= other.damage;
 with (other) instance_destroy();
 
 var player_inst = instance_find(Obj_player, 0);
@@ -19,7 +19,14 @@ if (boss_hp <= 0) {
 	if (jogo != noone) {
 	    jogo.shake_time = 1000;
 	    jogo.shake_strength = 8;
+		
+		instance_create_layer(639, 352, "Instances", Obj_game_win);
 }
 
 	global.score += 10000;
 }
+
+// Ativa o efeito de flash
+damage_flash = 5; 
+image_blend = c_yellow; // muda para amarelo
+instance_destroy(other);

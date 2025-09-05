@@ -18,3 +18,7 @@ if (hp <= 0) {
 	instance_create_layer(x, y, "Instances", Obj_projectile2_explosion);
 	global.score += 100;
 }
+
+damage_flash = 5; // piscar por 5 frames
+image_blend = c_yellow; // muda para amarelo
+instance_destroy(other);

@@ -7,3 +7,7 @@ hp = 2;
 atirador_max_hp = 10;
 
 player_obj = Obj_player; 
+
+//indicador de dano
+
+damage_flash = 0;

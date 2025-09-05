@@ -13,6 +13,13 @@ if (instance_exists(player_obj)) {
     move_and_collide(dx, dy, Obj_wall);
 }
 
+if (damage_flash > 0) {
+    damage_flash--;
+    if (damage_flash == 0) {
+        image_blend = c_white; // volta ao normal
+    }
+}
+
 
 // Destruir se sair da tela
 if (y > room_height + sprite_height) {

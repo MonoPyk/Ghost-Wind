@@ -33,6 +33,13 @@ if (instance_exists(player_obj)) {
 
 }
 
+if (damage_flash > 0) {
+    damage_flash--;
+    if (damage_flash == 0) {
+        image_blend = c_white; // volta ao normal
+    }
+}
+
 if (y > room_height + sprite_height) {
     instance_destroy();
 }

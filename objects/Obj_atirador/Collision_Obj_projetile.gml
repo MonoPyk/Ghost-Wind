@@ -1,4 +1,4 @@
-hp -= 1;
+hp -= other.damage;
 with (other) instance_destroy();
 
 var player_inst = instance_find(Obj_player, 0);
@@ -18,3 +18,7 @@ if (hp <= 0) {
 	
 	global.score += 200;
 }
+
+damage_flash = 5; // piscar por 5 frames
+image_blend = c_yellow; // muda para amarelo
+instance_destroy(other);
