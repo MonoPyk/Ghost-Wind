@@ -1,1 +1,3 @@
-speed = 3;
+speed = 3 + global.multiplicador;
+
+dano = 5 + global.multiplicador;

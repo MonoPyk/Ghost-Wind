@@ -1,4 +1,4 @@
-boss_hp -= other.damage;
+boss_hp -= Obj_projectile.damage;
 with (other) instance_destroy();
 
 var player_inst = instance_find(Obj_player, 0);
@@ -19,11 +19,15 @@ if (boss_hp <= 0) {
 	if (jogo != noone) {
 	    jogo.shake_time = 1000;
 	    jogo.shake_strength = 8;
-		
-		instance_create_layer(639, 352, "Instances", Obj_game_win);
 }
-
+	
 	global.score += 10000;
+	
+	//Obj_spawner.spawn_interval = 100
+	global.multiplicador += 1
+	instance_create_layer(639, 352, "Instances", Obj_game_win);
+	
+
 }
 
 // Ativa o efeito de flash

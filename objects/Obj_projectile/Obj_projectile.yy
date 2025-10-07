@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_projetile",
+  "%Name":"Obj_projectile",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_projetile",
+  "name":"Obj_projectile",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",

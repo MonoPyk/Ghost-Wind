@@ -1,5 +1,5 @@
 if (!invencivel) {
-    player_hp -= 5;
+    player_hp -= other.dano;
     if (player_hp <= 0) {
 		
 		instance_destroy();

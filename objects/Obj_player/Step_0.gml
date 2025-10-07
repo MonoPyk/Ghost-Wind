@@ -13,18 +13,17 @@ image_angle = point_direction(x, y, mouse_x, mouse_y) - 90
 //Função de atirar projeteis
 if (mouse_check_button(mb_left)) {
     if (projectile1_timer <= 0) {
-        instance_create_layer(x, y, "Instances", Obj_projetile);
+        instance_create_layer(x, y, "Instances", Obj_projectile);
         projectile1_timer = projectile1_cooldown;
     }
 }
 
-// Reduz o timer do tiro
+//Reduz o timer do tiro
 if (projectile1_timer > 0) {
     projectile1_timer -= 1;
 }
 
-if mouse_check_button_pressed(mb_right)
-{
+if mouse_check_button_pressed(mb_right){
 	instance_create_layer(x, y, "Instances", Obj_projectile2);
 	
 }

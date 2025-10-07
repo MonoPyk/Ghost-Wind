@@ -1,3 +1,4 @@
+//Intervalo de spawn (Por frames)
 spawn_interval = 10;
 spawn_timer = spawn_interval;
 
@@ -7,6 +8,6 @@ difficulty_interval = 100;
 
 // Lista de inimigos
 enemy_list = [Obj_drone, Obj_atirador, Obj_tanque];
-enemy_weights = [90, 9, 1]; // Drones 90%, Atiradores 10% no início
+enemy_weights = [90, 9, 1]; // Lista de porcentagem do spawn de inimigos por peso
 
 boss_spawned = false;

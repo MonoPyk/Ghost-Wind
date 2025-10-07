@@ -1,4 +1,4 @@
-hp -= 1;
+hp -= Obj_projectile.damage;
 with (other) instance_destroy();
 
 var player_inst = instance_find(Obj_player, 0);

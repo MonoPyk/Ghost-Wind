@@ -1,3 +1,5 @@
+//Colisão com Obj_db1_Orb
+
 if (!invencivel) {
     player_hp -= other.orb_damage;
     if (player_hp <= 0) {

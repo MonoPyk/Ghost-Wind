@@ -15,7 +15,7 @@ heatlhbar_y = 700;
 
 //barra de almas
 
-soul_bar = 50;
+soul_bar = 0;
 soul_stops_usados = 0;
 
 invencivel = false;
@@ -36,3 +36,4 @@ dash_cooldown_timer = 0;
 
 dash_dx = 0;
 dash_dy = 0;
+

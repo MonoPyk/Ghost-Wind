@@ -1,5 +1,5 @@
 if (!invencivel) {
-    player_hp -= 10;
+    player_hp -= other.dano;
     invencivel = true;
     invencivel_timer = invencivel_duracao;
 
