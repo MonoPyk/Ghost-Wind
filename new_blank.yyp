@@ -49,6 +49,7 @@
     {"id":{"name":"Obj_db1","path":"objects/Obj_db1/Obj_db1.yy",},},
     {"id":{"name":"Obj_drone","path":"objects/Obj_drone/Obj_drone.yy",},},
     {"id":{"name":"Obj_enemy_explosion","path":"objects/Obj_enemy_explosion/Obj_enemy_explosion.yy",},},
+    {"id":{"name":"Obj_firebase","path":"objects/Obj_firebase/Obj_firebase.yy",},},
     {"id":{"name":"Obj_fx","path":"objects/Obj_fx/Obj_fx.yy",},},
     {"id":{"name":"Obj_game_over","path":"objects/Obj_game_over/Obj_game_over.yy",},},
     {"id":{"name":"Obj_game_win","path":"objects/Obj_game_win/Obj_game_win.yy",},},

@@ -8,8 +8,17 @@ var cam_width = 840;  // largura da câmera
 var cam_height = 560; // altura da câmera
 
 // Base: centraliza no player
-var cam_x = Obj_player.x - cam_width / 2;
-var cam_y = Obj_player.y - cam_height / 2;
+var cam_x = camera_cordx
+
+var cam_y = camera_cordy
+
+
+if instance_exists(Obj_player){
+	
+	camera_cordx = Obj_player.x - cam_width / 2;
+
+	camera_cordy = Obj_player.y - cam_height / 2;
+}
 
 // Limita para não sair da room
 cam_x = clamp(cam_x, 0, room_width - cam_width);

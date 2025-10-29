@@ -5,6 +5,6 @@ if (!invencivel) {
 
     if (player_hp <= 0) {
 		instance_destroy();
-        instance_create_layer(639, 352, "Instances", Obj_game_over);
+        instance_create_layer(self.x, self.y, "Instances", Obj_game_over);
     }
 }

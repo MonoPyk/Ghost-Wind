@@ -1,5 +1,5 @@
 //Intervalo de spawn (Por frames)
-spawn_interval = 10;
+spawn_interval = 100;
 spawn_timer = spawn_interval;
 
 min_spawn_interval = 5;

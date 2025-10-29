@@ -12,12 +12,18 @@ global.onda = 1;
 
 global.score = 0;
 
+//global.player_name = "";
+
 cam_width = 840;  // largura da câmera
 cam_height = 560; // altura da câmera
 
 // Cria a câmera
 view_camera[0] = camera_create();
 camera_set_view_size(view_camera[0], cam_width, cam_height);
+
+camera_cordx = 0;
+
+camera_cordy = 0;
 
 if (instance_exists(Obj_player)) {
     // Base: centraliza no player

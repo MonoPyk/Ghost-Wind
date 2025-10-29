@@ -14,8 +14,8 @@ draw_text(20, 700, "HP: " + string(player_hp));
 draw_set_color(c_white);
 draw_text(20, 500, "Almas: " + string(soul_bar));
 
-draw_set_color(c_white);
-draw_text(20, 600, "Dano: " + string(Obj_projectile.damage));
+//draw_set_color(c_white);
+//draw_text(20, 600, "Dano: " + string(Obj_projectile.damage));
 
 draw_set_color(c_white);
 draw_text(20, 400, "Soul Stops: " + string(soul_stops_usados));
