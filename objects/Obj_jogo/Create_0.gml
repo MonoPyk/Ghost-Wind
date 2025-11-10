@@ -12,6 +12,8 @@ global.onda = 1;
 
 global.score = 0;
 
+global.player_name = "";
+
 //global.player_name = "";
 
 cam_width = 840;  // largura da câmera

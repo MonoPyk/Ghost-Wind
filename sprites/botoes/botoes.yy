@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"botoes",
   "bboxMode":0,
   "bbox_bottom":11,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"0e8e1b30-268e-4fc5-88f0-38f76bcc29ad","name":"0e8e1b30-268e-4fc5-88f0-38f76bcc29ad","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0e8e1b30-268e-4fc5-88f0-38f76bcc29ad","name":"0e8e1b30-268e-4fc5-88f0-38f76bcc29ad","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

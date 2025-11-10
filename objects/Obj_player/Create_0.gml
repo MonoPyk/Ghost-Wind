@@ -1,3 +1,5 @@
+//Velocidade do player
+
 player_speed = 6;
 
 // Status do hp do player
@@ -22,18 +24,24 @@ invencivel = false;
 invencivel_timer = 0;      // Timer de invencibilidade
 invencivel_duracao = 60;   // Duração em frames (60 = 1 segundo)
 
-projectile1_cooldown = 10; // menor valor = mais rápido
+projectile1_cooldown = 10;	// menor valor = mais rápido
 projectile1_timer = 0;
 
-dash_distance = 400;         // Total que o dash percorre
-dash_duration = 10;          // Quantos frames o dash dura
-dash_cooldown = 10;          // Cooldown após o dash
+dash_distance = 400;	// Total que o dash percorre
+dash_duration = 10;		// Quantos frames o dash dura
+dash_cooldown = 10;		// Cooldown após o dash
 
 is_dashing = false;
 dash_timer = 0;
 
 dash_cooldown_timer = 0;
 
-dash_dx = 0;
-dash_dy = 0;
+dash_dx = 0;	//Coordenadas X do dash
+dash_dy = 0;	//Coordenadas Y do dash
 
+//começa OST quando player spawna
+if instance_exists(self){
+	
+	audio_play_sound(ost_robot_army, 10, true);
+	
+}

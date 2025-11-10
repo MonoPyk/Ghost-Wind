@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"PowerUup",
   "bboxMode":0,
   "bbox_bottom":479,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"82368ca7-a136-42c2-a6a8-b115ccbf70ee","name":"82368ca7-a136-42c2-a6a8-b115ccbf70ee","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"82368ca7-a136-42c2-a6a8-b115ccbf70ee","name":"82368ca7-a136-42c2-a6a8-b115ccbf70ee","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -17,8 +17,6 @@ sent_score = false; // variável de controle para evitar múltiplos envios
 
 //firebase
 
-/// OBJ_FIREBASE - CREATE EVENT
-
 /// Função encode_string simples
 function encode_string(str) {
     // Substitui espaços por %20 (mínimo necessário para URLs)

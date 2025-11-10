@@ -1,0 +1,1 @@
+levit_offset = sin(current_time * levit_speed) * levit_amp;

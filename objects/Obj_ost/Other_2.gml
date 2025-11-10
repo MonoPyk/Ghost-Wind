@@ -1,0 +1,1 @@
+audio_play_sound(ost_ghost_wind, 10, true);

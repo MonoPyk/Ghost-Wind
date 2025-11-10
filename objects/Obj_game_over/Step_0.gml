@@ -20,7 +20,9 @@ if (image_alpha >= 1) {
 
     // Confirmar entrada e enviar score
     if (keyboard_check_pressed(vk_enter) && string_length(player_name) > 0) {
-
+		
+		global.player_name = player_name;
+		
         // --- Envia para o Firebase diretamente ---
         var firebase_base_url = "https://ghostwindleaderboard-default-rtdb.firebaseio.com/leaderboard/";
         var data = "{ \"score\": " + string(global.score) + " }";
@@ -29,8 +31,10 @@ if (image_alpha >= 1) {
         // Envia usando network_http_request (substitui http_put_string)
         request = http_post_string(url, data);
 
-        show_message("Score enviado com sucesso!");
+        room_goto(rm_ranking);
+		
+		//show_message("Score enviado com sucesso!");
         keyboard_string = "";
-        room_goto(rm_menu);
+		
     }
 }

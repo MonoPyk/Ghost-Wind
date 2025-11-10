@@ -36,5 +36,5 @@
     "path":"sprites/Spawner/Spawner.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
